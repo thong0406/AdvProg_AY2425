@@ -19,6 +19,7 @@ int main(int argc, char* argv[])
         return 1;
     }
 
+    cout << "asdf" << endl;
     string func = argv[1];
     double x = stod(argv[2]);
     cout << "Computed by this program:  " << callFunction(func, x) << endl;
